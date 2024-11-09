@@ -1,0 +1,41 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    width:600px;
+}
+#display {
+
+    width: 600px;
+    height: 100px;
+    background-color: lightblue;
+    font-size: 70px;
+    text-align: right;
+    font-family: sans-serif;
+}
+#pad {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+
+
+}
+
+button {
+
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    font-size: 28px;
+    height: 80px;
+    width: 150px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+button:active{
+    background-color: chartreuse;
+}
